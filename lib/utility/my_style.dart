@@ -22,6 +22,10 @@ class MyStyle {
   BoxDecoration bixDecarationTextField() {
     return BoxDecoration(color: Colors.white);
   }
+  BoxDecoration bixDecarationTextField2() {
+    return BoxDecoration(color: Colors.grey.shade300,
+    borderRadius: BorderRadius.circular(18));
+  }
 
   TextStyle titleH1() {
     return TextStyle(
